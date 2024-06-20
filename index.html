@@ -2,36 +2,100 @@
 <html>
     <head>
         <title>Porfolio web</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <header>
-            <h1>Cristhian Gómez</h1>
-            <h2>Desarrollador Web</h2>
-          </header>
-        <main>
-            <section>
-              <h2>Acerca de mí</h2>
-              <p>
-                Como desarrollador web junior, fusiono mi pasión por el diseño y la
-                programación para crear experiencias web excepcionales. Me esfuerzo por
-                cada línea de código y cada detalle de diseño para asegurarme de que mis
-                sitios web sean visualmente atractivos, funcionales y accesibles para
-                todos. Estoy comprometido a seguir aprendiendo y mejorando continuamente
-                mientras busco oportunidades desafiantes que amplíen mi experiencia en el
-                desarrollo web.
-              </p>
-            </section>
-            <section>
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Metodologías ágiles</li>
-                </ul>
-            </section>
-          </main>
-
+      <div class="Hipervinculos">
+        <nav>
+          <ul>
+            <a href="#Acerca-de-mí">Acerca de mí</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Experiencia">Experiencia</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="#Contacto">Contacto</a>
+          </ul>
+        </nav>
+      </div>
+      <header>
+        <div class="titulo">
+        <h1>Cristhian David Gómez Zayas</h1>
+        <h2>Diseñador gráfico</h2>
+        </div>
+      </header>
+      <main>
+        <section>
+          <h3>Acerca de mí</h3>
+          <p>
+            Soy diseñador gráfico con más de 5 años de experiencia
+            en social media post, brand visual y manipulación fotográfica.
+            Me especializo en Photoshop e Ilustrator, explorando el mundo
+            del diseño UI/UX con Figma. He trabajado en proyectos a nivel
+            local y departamental. Busco oportunidades para ampliar mis
+            conocimientos y contribuir al éxito de un nuevo proyecto 
+            o empresa.
+          </p>
+        </section>
+        <section>
+          <h3>Experiencia laboral</h3>
+          <div class="Experiencia">
+            <div>
+              <ul>
+                <li><strong>Municipalidad de Enc:</strong> (2023- actual)</li>
+                <p>Diseño de contenido para redes sociales, diseño y preparación de archivos para impresión en papelería, cartelería y ploteado.</p><br>
+                <li><strong>Tokorre:</strong> (2022 - 2023)</li>
+                <p>Diseño de contenido para redes sociales.</p><br>
+                <li><strong>Uru</strong> (2022-2022)</li>
+                <p>Diseño de marca, linea gráfica, retoques fotográficos y posteos para redes sociales.</p><br>
+                <li><strong>Maitei</strong></li>
+                <p>Diseño de post para redes sociales.</p><br>
+                <li><strong>Creativa</strong></li>
+                <p>Diseño de marcas, post para redes sociales. Fotografía de producto, retoques y creación de linea gráfica.</p><br>
+                <li><strong>Jotaele</strong></li>
+                <p>Diseño y sublimado de indumentarias deportivas.</p>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Habilidades</h3>
+          <div class="contenedor">
+            <div>Photoshop</div>
+            <div>Ilustrator</div>
+            <div>Indesign</div>
+            <div>Figma</div>
+            <div>CorelDraw</div>
+          </div>
+        </section>
+        <section>
+          <h3>Proyectos</h3>
+          <p>
+            Visita el siguiente <a href="https://www.behance.net/christianzayas5">enlace</a> para acceder a mi portafolio online
+            en la plataforma behance y conocer algunos de mis más recientes proyectos.
+          </p>
+        </section>
+        <section>
+          <h3>Contacto</h3>
+          <p>Si tienes alguna pregunta o quieres contactarme puedes hacerlo a traves del siguiente formulario
+            o a traves del enlace a mi <a href="https://wa.link/gt4qy5">WhatsApp</a>
+          </p>
+          <div class="container">
+            <form action="action_page.php">
+                <label for="fnombre">Nombre:</label>
+                <input type="text" id="fnombre" name="primernombre" placeholder="Tu nombre..">
+    
+                <label for="correo">Correo electrónico:</label>
+                <input type="text" id="correo" name="cuentadecorreo" placeholder="Tu correo..">
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="text" name="mensaje" placeholder="Escribe algo.." style="height:200px"></textarea>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright &copy; 2024</p>
+      </footer>
     </body>
 </html>
