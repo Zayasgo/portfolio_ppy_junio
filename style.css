@@ -1,4 +1,7 @@
 @import url("https://fonts.google.com/specimen/Poppins");
+html{
+  scroll-padding-top: 4rem;
+}
 h3{
     color: #2f46ca
   }
@@ -8,6 +11,9 @@ h2{
 h1 {
     color: #ffffff
   }
+p{
+  text-justify: auto;
+}
 .Hipervinculos{
   display: flex;
   border: none;
@@ -25,6 +31,7 @@ nav ul a {
 .contenedor {
   display: flex;
   border: none;
+  overflow-wrap: normal;
   div{
     display: flex;
     border: 1px solid #979797;
